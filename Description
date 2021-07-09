@@ -1,4 +1,5 @@
-Simulation of Operating System (Process Management):
+# Simulation of Operating System (Process Management): 
+
 Simulation of processes in shared computer system, to check performance of the system
 against sequential execution of processes.
 Each process is CPU-bound or IO-bound (spending 80% time in -bound activity)
