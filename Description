@@ -1,0 +1,20 @@
+Simulation of Operating System (Process Management):
+Simulation of processes in shared computer system, to check performance of the system
+against sequential execution of processes.
+Each process is CPU-bound or IO-bound (spending 80% time in -bound activity)
+CPU can be used by only one process at a time.
+IO can be shared by any number of processes, but getting slower by 5% for every
+additional user.
+Maximum CPU slot of 100 ms.
+Simulate above situation so that we can check performance for:
+Approximately 20 processes every minute, each needing execution time of approx 3 to 8
+seconds if run alone.
+and check performance for following percentage of IO-bound processes
+(0,20,40,60,80,100).
+Run simulation for processes getting generated for 5 minutes, and data collection till all
+processes are completed.
+============================================================
+Process Creator
+CPU Manager
+IO Manager
+Controller and Result provider
